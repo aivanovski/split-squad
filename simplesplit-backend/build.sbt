@@ -4,7 +4,7 @@ val zioVersion = "2.1.19"
 lazy val root = project
   .in(file("."))
   .settings(
-    name := "split-it",
+    name := "simple-split",
     version := "0.1.0-SNAPSHOT",
 
     scalaVersion := scala3Version,
